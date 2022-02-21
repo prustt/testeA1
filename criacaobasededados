@@ -1,0 +1,9 @@
+Comandos para a criação da base de dados no MariaDB
+
+Usando um MacOS, instalei o Homebrew, um assistente de instalação via terminal.
+Digitando no terminal 'brew install mariadb' ele automaticamente ja baixa e instala o MariaDB.
+O comando 'mysql' ou 'mariadb' não funcionava e o próprio Homebrew me deu a dica que deveria mudar o local de instalação onde antes estava 'mysqld' para o local 'mysql'.
+Isto foi um incomodo até descobrir que este era o problema, com o local de instalação alterado, consegui acessar pela primeira vez o MariaDB pelo meu terminal.
+Neste ponto eu já havia pesquisado muito e entendido melhor sobre como funciona.
+Usando o comando 'create database testeA1;' consegui finalmente criar (decentemente, eu acho) a base de dados.
+Usando 'use testeA1', acessei a base de dados e usei o 'create table ...' que esta na pasta: criacaotabelasql.
