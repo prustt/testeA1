@@ -1,0 +1,9 @@
+CREATE TABLE `testetabela` (
+  `group id` int(11) DEFAULT NULL,
+  `material id` int(11) DEFAULT NULL,
+  `item qty` float DEFAULT NULL,
+  `item_dim1` varchar(100) DEFAULT NULL,
+  `item_dim2` varchar(100) DEFAULT NULL,
+  `item_dim3` varchar(100) DEFAULT NULL,
+  `item_class` varchar(100) DEFAULT NULL
+);
