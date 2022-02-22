@@ -1,7 +1,7 @@
 import MySQLdb
 import csv
 
-mydb=MySQLdb.connect(host="127.0.0.1", user="luizp", password="1234", database="testeA1")
+mydb=MySQLdb.connect(host="127.0.0.1", user="root", password="", database="testeA1")
 
 with open("itens.csv", newline='') as csvfile: #with open pq ele fecha sozinho o arquivo apos o uso
     rows = csv.reader(csvfile, delimiter=';')#definindo o limitador que separa
